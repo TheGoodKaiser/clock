@@ -1,6 +1,11 @@
 #counterContainer {
 	width: 300px;
-	background-color: blue;
+	background-color: green;
+	-o-transition:.7s;
+    -ms-transition:.7s;
+    -moz-transition:.7s;
+    -webkit-transition:.7s;
+    transition:.7s;
 }
 #counter {
 	color: white;
@@ -8,4 +13,9 @@
 	font-family: sans-serif;
 	margin: 0 auto;
 	text-align: center;
+	-o-transition:.7s;
+    -ms-transition:.7s;
+    -moz-transition:.7s;
+    -webkit-transition:.7s;
+    transition:.7s;
 }

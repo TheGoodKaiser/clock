@@ -11,7 +11,7 @@ if (myDate.getSeconds()<10) {
 var colorCount = 0;
 function setColor() {
 	colorCount++;
-	if(colorCount%15 == 0) {
+	if(colorCount%5 == 0) {
 		var col = Math.random();
 		if (col<0.33) {
 			counterContainer.style.background = "red";
@@ -20,7 +20,7 @@ function setColor() {
 			counterContainer.style.background = "blue";
 			counter.style.color = "red";
 		} else {
-			counterContainer.style.background = "blue";
+			counterContainer.style.background = "violet";
 			counter.style.color = "white";
 		}
 	}
