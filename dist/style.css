@@ -1,0 +1,11 @@
+#counterContainer {
+	width: 300px;
+	background-color: blue;
+}
+#counter {
+	color: white;
+	font-size: 20px;
+	font-family: sans-serif;
+	margin: 0 auto;
+	text-align: center;
+}
